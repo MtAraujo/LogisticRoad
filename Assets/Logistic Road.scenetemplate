@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Logistic Road
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: fdf6574ca242c40cbb59cba94be04f35, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2800000, guid: 5857d7478ea7c55ebb8cb63dde57dcb8, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 87bd0beae3c194400804fba397f4cf9a, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 5495498020805461425, guid: ffdc6f43d0df6e50fa02220f904f957b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: fea367a66a968da66b0dcadb2cf9b00e, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ea3ba3b0404057fecada9bb57b6acf23, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: c48e3841e0b5e0214a56faf91a90d2f7, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 4531970571988006742, guid: 346fa0c2f1f4aa6a99ce21af799cdfb2, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
