@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    
     public GameObject Obstacle;
     public float maxX;
     public float minX;
@@ -12,20 +11,37 @@ public class NewBehaviourScript : MonoBehaviour
     public float minY;
     public float TimeBetweenSpawn;
     public float SpawnTime;
-
-    // Update is called once per frame
+    public float obstacleRadius = 0.5f; 
+   
     void Update()
     {
-        if(Time.time > SpawnTime){
+        if (Time.time > SpawnTime)
+        {
             Spawn();
-            SpawnTime = Time.time+TimeBetweenSpawn;
+            SpawnTime = Time.time + TimeBetweenSpawn;
         }
     }
 
-    void Spawn(){
-        float X = Random.Range(minX, maxX);
-        float Y = Random.Range(minY, maxY);
+    void Spawn()
+    {
+        Vector3 spawnPosition;
+        bool positionIsValid = false;
 
-        Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);
+        do
+        {
+            float X = Random.Range(minX, maxX);
+            float Y = Random.Range(minY, maxY);
+            spawnPosition = transform.position + new Vector3(X, Y, 0);
+
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(spawnPosition, obstacleRadius);
+
+            if (colliders.Length == 0)
+            {
+                positionIsValid = true;
+            }
+
+        } while (!positionIsValid);
+
+        Instantiate(Obstacle, spawnPosition, transform.rotation);
     }
 }
