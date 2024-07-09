@@ -1,0 +1,270 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719242519371424, "dur":3359, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719242519374846, "dur":286, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719242519375163, "dur":2274, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719242519377440, "dur":132534, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719242519510185, "dur":1751, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719242519374910, "dur":2541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719242519377453, "dur":674, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719242519378378, "dur":138, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":1, "ts":1719242519378753, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519378991, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519379150, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519379262, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519379323, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519379496, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519379799, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719242519378520, "dur":1672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719242519380512, "dur":128546, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719242519509800, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1719242519374923, "dur":2545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719242519377471, "dur":413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719242519377886, "dur":298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719242519378440, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1719242519378796, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719242519378580, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519378940, "dur":270, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719242519379214, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519379378, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519379494, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1719242519379643, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519379827, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1719242519380225, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519380528, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519380682, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519385855, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719242519385992, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":2, "ts":1719242519386156, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719242519388318, "dur":121685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519374933, "dur":2542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519377478, "dur":403, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519377882, "dur":292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519378440, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719242519378665, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519378809, "dur":123, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519378936, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519379191, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519379648, "dur":206, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719242519379370, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519379898, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380023, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380161, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380280, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380534, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380686, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519380862, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719242519385087, "dur":72, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1719242519385209, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":3, "ts":1719242519387509, "dur":122485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719242519374952, "dur":2531, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719242519377486, "dur":371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719242519377858, "dur":273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719242519378433, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519378514, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519378633, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519378919, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379090, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379201, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379268, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379417, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379490, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519379799, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/b123/Documents/Projetos/Logistic Road/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519378134, "dur":1932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1719242519380180, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519380342, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519380664, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519380949, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719242519382083, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1719242519387229, "dur":122738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519374975, "dur":2517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519377494, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519377808, "dur":344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519378904, "dur":84, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519378991, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519379285, "dur":392, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719242519379184, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519379719, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519379869, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519381885, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519385622, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519385864, "dur":65, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1719242519385966, "dur":85, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519386080, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719242519387520, "dur":122434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719242519374985, "dur":2515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719242519377502, "dur":330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719242519377833, "dur":321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719242519378363, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719242519378591, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1719242519378709, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719242519378872, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719242519378985, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719242519381481, "dur":5266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719242519386759, "dur":123245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719242519375009, "dur":2499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719242519377511, "dur":440, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719242519377952, "dur":195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719242519378755, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519378967, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719242519378901, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519379077, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519379548, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1719242519379716, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1719242519380286, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519380555, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519381452, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719242519386253, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1719242519386434, "dur":123575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519375018, "dur":2509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519377529, "dur":445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519377975, "dur":186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519378746, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519378674, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1719242519378853, "dur":149, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519379006, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719242519379279, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719242519379167, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719242519379391, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719242519379592, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1719242519383233, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719242519383400, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719242519383643, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1719242519388499, "dur":121447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719242519375040, "dur":2495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719242519377539, "dur":430, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719242519377970, "dur":193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719242519378856, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1719242519379319, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1719242519379702, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719242519379398, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519379816, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519380029, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519380200, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519380488, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519381001, "dur":216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519381249, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519381424, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519381540, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519382266, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519382838, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519383163, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519384903, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719242519385114, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1719242519385280, "dur":37225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":9, "ts":1719242519422516, "dur":87435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519375042, "dur":2504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519377547, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519377822, "dur":307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519378965, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379184, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379098, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379307, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379629, "dur":87, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379746, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719242519379885, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719242519380004, "dur":66, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1719242519380110, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1719242519380879, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719242519385543, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux.x86_64" }}
+,{ "pid":12345, "tid":10, "ts":1719242519387465, "dur":122532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719242519375057, "dur":2496, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719242519377555, "dur":637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719242519378417, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719242519378851, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719242519378603, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519378967, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379292, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379357, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379517, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379690, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379833, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519379993, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519380133, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519380372, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1719242519381460, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519381609, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519381753, "dur":80, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519381861, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519382164, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719242519384924, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":11, "ts":1719242519385041, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1719242519385200, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":11, "ts":1719242519387475, "dur":122482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719242519375082, "dur":2483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719242519377567, "dur":571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719242519378599, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719242519378765, "dur":82, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719242519378866, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719242519378955, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719242519379115, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1719242519381424, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719242519386142, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719242519386333, "dur":123610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519375092, "dur":2486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519377580, "dur":554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378371, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378742, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378591, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378832, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378970, "dur":207, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519378903, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519379205, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519379261, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":13, "ts":1719242519380507, "dur":185, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719242519380696, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519380894, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519381464, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519381655, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519381743, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519381903, "dur":66, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519381995, "dur":68, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519382087, "dur":75, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519382185, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519385786, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1719242519385934, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1719242519386073, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719242519386448, "dur":123511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519375112, "dur":2479, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519377593, "dur":548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379045, "dur":106, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379155, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379314, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379503, "dur":116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379698, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379646, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1719242519379822, "dur":2053, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719242519381878, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1719242519382070, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":14, "ts":1719242519385271, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719242519390237, "dur":119743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519375134, "dur":2465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519377601, "dur":543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378582, "dur":113, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378511, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378830, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378759, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378913, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519378995, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519379149, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519379253, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719242519379328, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1719242519383261, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519385856, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719242519386463, "dur":123499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719242519375137, "dur":2472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719242519377610, "dur":538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719242519378401, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519378626, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519378888, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719242519378832, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519379133, "dur":1311, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719242519379013, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519380516, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519380711, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519385585, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1719242519385720, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519385864, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1719242519386002, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"LogisticRoad Linux/LogisticRoad Linux_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719242519386486, "dur":123498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719242519513149, "dur":122, "ph":"X", "name": "ProfilerWriteOutput" }
+,
